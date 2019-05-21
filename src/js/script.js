@@ -1,0 +1,3 @@
+$(function() {
+    $('.glitch-me').textGlitcher({});
+});

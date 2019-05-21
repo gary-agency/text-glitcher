@@ -2,17 +2,41 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="script.js"></script>
+    <style>
+        body, html{
+            padding: 0;
+            margin: 0;
+            font-family: Montserrat, sans-serif;
+            font-size: 22px;
+            background: white;
+            color: black;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .container{
+            padding: 30vh 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            letter-spacing: 15px;
+            text-transform: lowercase;
+        }
+    </style>
+    <link rel="stylesheet" href="./dist/css/style.css">
     <title>Text Reveal</title>
 </head>
 <body>
 
     <div class="container">
-            <div class="img"><img src="onlygary.png" alt=""></div>
-            <p>Graphiste print et web</p>
+            <div class="img"><img src="./assets/onlygary.png" alt=""></div>
+            <p class="glitch-me">Graphiste print et web</p>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./src/js/textGlitcher.jquery.js"></script>
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
