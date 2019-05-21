@@ -1,3 +1,5 @@
 $(function() {
-    $('.glitch-me').textGlitcher({});
+    $('.glitch-me').textGlitcher({
+        gChars: ['0','1']
+    });
 });
